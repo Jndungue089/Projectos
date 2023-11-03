@@ -19,7 +19,8 @@ html {
 }
 
 .all {
-    margin: 1000;
+    width: 100%;
+    box-sizing: inherit;
 }
 
 html body {
@@ -72,13 +73,12 @@ html body {
 
 #logo {
     max-width: 100%;
-    height: auto;
     border-radius: 5px;
-    padding-top: 12px;
-    padding-left: 30px;
+    margin-top: 12px;
+    margin-left: 30px;
     position: absolute;
     display: block;
-    background: #3a0ca3;
+    background-color: transparent;
 }
 
 .barra-responsiva {
@@ -97,14 +97,18 @@ html body {
 .logo-responsivo menu {
     position: relative;
     display: block;
-    background: #3a0ca3;
+    background-color: transparent;
 }
 
 .Barra-de-navegacao {
     background: #480ca8;
     padding-bottom: 10px;
     display: block;
-    background: #3a0ca3;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 999;
 }
 
 
@@ -181,8 +185,7 @@ div.barra-de-menu {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    padding: 100px 0;
-    padding-top: 100px;
+    margin: 100px 0;
     padding-right: 0px;
     padding-bottom: 100px;
     padding-left: 0px;
@@ -194,9 +197,6 @@ div.barra-de-menu {
 }
 
 .img1 {
-    flex: auto;
-    width: 600px;
-    height: 593px;
     max-width: 100%;
     text-align: center;
     box-sizing: border-box;
@@ -204,6 +204,7 @@ div.barra-de-menu {
     position: relative;
     object-position: top;
     left: -140px;
+    z-index: 1;
 }
 
 .img2 {
@@ -234,13 +235,11 @@ div.barra-de-menu {
 .img4 {
     border-radius: 5px;
     position: relative;
-    text-align: right;
+    text-align: center;
     margin-left: 0px;
-    margin-right: 20px;
     box-sizing: border-box;
     display: block;
     flex: 0 0 auto;
-    width: 50%;
 }
 
 .bts1 {
@@ -274,15 +273,6 @@ div.barra-de-menu {
     transition-duration: 0.8s;
 }
 
-.b1-txt {
-    text-decoration: none;
-    color: #410dfd;
-}
-
-.b1-txt:hover {
-    color: white;
-}
-
 #b2 {
 
     color: white;
@@ -314,7 +304,6 @@ div.barra-de-menu {
 .b3 {
     color: white;
     background-color: #9d4edd;
-    margin: 5px;
     border: 0;
     border-radius: 5px;
     font-size: 15px;
@@ -322,7 +311,7 @@ div.barra-de-menu {
     padding-bottom: 12px;
     padding-left: 40px;
     padding-right: 40px;
-    text-align: center;
+    text-align: right;
     font-weight: 600;
     display: inline-block;
     box-shadow: 0 7px 25px rgb(123, 104, 238, 0.25);
@@ -413,12 +402,7 @@ div.header {
     text-decoration: none;
     color: white;
     text-align: center;
-    display: flex;
-    flex-basis: auto;
-    padding-left: 0;
-    list-style-type: none;
-    margin: auto;
-    flex-direction: row;
+    position: relative;
 }
 
 em {
@@ -467,13 +451,10 @@ h4 {
 
 .support {
     text-align: right;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
+    position: fixed;
     color: #ffffff;
     font-size: 15px;
     font-weight: 600;
-    text-align: center;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 12px;
@@ -517,7 +498,7 @@ h4 {
 .choose-img {
     border-radius: 5px;
     position: relative;
-    text-align: left;
+    text-align: center;
     margin-left: 0px;
     margin-right: 40px;
     box-sizing: border-box;
@@ -588,6 +569,7 @@ div.container,
     transition: all 500ms ease-out;
     margin-top: 30px;
     text-align: left;
+    margin-right: 20px;
 }
 
 .serv {
