@@ -601,3 +601,7 @@ div.container,
     width: 380px;
     height: 360px;
 }
+
+.clients{
+    text-align: center;
+}
