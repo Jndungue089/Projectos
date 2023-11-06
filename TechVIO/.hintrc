@@ -15,6 +15,7 @@
       {
         "nested-interactive": "off"
       }
-    ]
+    ],
+    "meta-viewport": "off"
   }
 }
