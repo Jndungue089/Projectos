@@ -597,6 +597,7 @@ h5 {
 .blog{
     background-color: #f7f8f8;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #blog{
@@ -604,4 +605,16 @@ h5 {
     width: 70%;
     display: flex;
     flex-direction: row;
+}
+
+.work{
+    position: relative;
+    background: url(banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    padding: 100px 0;
+    color: white;
+    margin-bottom: 100px;
 }
