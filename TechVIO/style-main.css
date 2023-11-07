@@ -130,10 +130,6 @@ nav {
 
 
 @media (max-width: 999px) {
-    body {
-        overflow-y: hidden;
-    }
-
     .nav-list {
         position: absolute;
         right: 0;
