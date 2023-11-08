@@ -41,11 +41,11 @@ html body {
     z-index: 1;
 }
 
-.subnav a{
+.subnav a {
     color: black;
 }
 
-.subnav:hover{
+.subnav:hover {
     display: block;
 }
 
@@ -56,15 +56,15 @@ html body {
     outline: none;
 }
 
-.nav-list a{
+.nav-list a {
     text-decoration: none;
     color: white;
     text-align: center;
 }
 
 .nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
+    margin-left: 15px;
+    display: list-item;
 }
 
 .mobile-menu div {
@@ -342,6 +342,8 @@ div.barra-de-menu {
     display: flex;
     align-items: center;
     height: 700px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .img1 {
@@ -685,11 +687,24 @@ div.container,
     margin-top: 30px;
     margin-right: 20px;
     position: relative;
-    z-index: 1;
-    display: grid;
+    display: block;
     border-radius: 5px;
     width: 380px;
     height: 360px;
+    transition: 1s;
+}
+
+.srv {
+    margin: 0;
+    transition: 0.3s;
+}
+
+.serv:hover {
+    .srv {
+        transform: scaleX(-1);
+    }
+
+    margin-top: -1px;
 }
 
 .clients {
@@ -740,7 +755,7 @@ h5 {
     margin-bottom: 100px;
 }
 
-#client{
+#client {
     max-width: 20%;
     padding-left: 10px;
     padding-right: 10px;
@@ -748,18 +763,18 @@ h5 {
     display: block;
 }
 
-.clients{
+.clients {
     display: flex;
     flex-wrap: wrap;
 }
 
-#client img{
+#client img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
 }
 
-#client a{
+#client a {
     position: relative;
     display: block;
     padding: 5px 20px;
@@ -767,4 +782,58 @@ h5 {
     border-radius: 10px;
     border: 2px solid #ededed;
     margin-bottom: 30px;
+}
+
+.subscribe {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 0 0 auto;
+}
+
+.subscribe
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+input{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+}
+
+.news{
+    color: #404040;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    height: 50px;
+    display: block;
+    padding-left: 25px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: none;
+
+}
+
+.sub{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 30px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #7b68ee;
+    transition: 0.4s;
+    border: none;
+}
+
+.sub:hover{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.6s;
 }
