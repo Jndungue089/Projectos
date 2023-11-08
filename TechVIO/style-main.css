@@ -70,7 +70,7 @@ html body {
 .mobile-menu div {
     width: 32px;
     height: 2px;
-    background: #fff;
+    background: #000;
     margin: 8px;
     transition: 0.3s;
 }
@@ -83,6 +83,7 @@ nav {
 .mobile-menu {
     cursor: pointer;
     display: none;
+    background-color: white;
 }
 
 .mobile-menu.active .line1 {
@@ -117,7 +118,7 @@ nav {
     transition-timing-function: ease;
     transition-delay: 0s;
     transition-property: all;
-    z-index: 1;
+    z-index: 999;
 }
 
 #b3:hover,
@@ -231,31 +232,29 @@ nav {
 .barra-responsiva {
     display: block;
     position: relative;
-    background: #3a0ca3;
 }
 
 .container {
     max-width: 720px;
     position: relative;
     display: block;
-    background: #3a0ca3;
+
 }
 
 .logo-responsivo menu {
     position: relative;
     display: block;
-    background-color: transparent;
 }
 
 .Barra-de-navegacao {
-    background: #480ca8;
     padding-bottom: 10px;
     display: flex;
     background-color: transparent;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 999;
     flex-direction: row;
+    margin-bottom: 100xp;
 }
 
 
@@ -266,7 +265,6 @@ nav {
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 15px;
-    background: #3f37c9;
 }
 
 div.barra-de-menu {
@@ -522,7 +520,8 @@ p {
 
 div.header {
     text-decoration: none;
-    color: white;
+    color: black;
+    background-color: transparent;
     position: relative;
     margin-left: 20px;
     display: flex;
@@ -709,6 +708,7 @@ div.container,
 
 .clients {
     text-align: center;
+    margin-top: 50px;
 }
 
 .team-images {
@@ -756,16 +756,16 @@ h5 {
 }
 
 #client {
-    max-width: 20%;
+    flex: 0 0 20%;
     padding-left: 10px;
     padding-right: 10px;
-    box-sizing: border-box;
-    display: block;
 }
 
 .clients {
-    display: flex;
     flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+    display: flex;
 }
 
 #client img {
@@ -777,7 +777,6 @@ h5 {
 #client a {
     position: relative;
     display: block;
-    padding: 5px 20px;
     text-align: center;
     border-radius: 10px;
     border: 2px solid #ededed;

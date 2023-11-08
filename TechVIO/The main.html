@@ -21,7 +21,7 @@
 
                 <div id="logo">
 
-                    <img src="logo-black.png" alt="TECHVIO">
+                    <a href="#"><img src="logo.png" alt="TECHVIO"></a>
 
                 </div>
 
@@ -92,7 +92,8 @@
                 <div class="texto" style="box-sizing: border-box;
                 vertical-align: middle;
                 display: table-cell;
-                align-items: center">
+                align-items: center;
+                z-index: 1;">
 
                     <h1 id="text1">IT Solutions & Business Services Company</h1>
 
@@ -522,7 +523,7 @@
                             <span class="numero-contador">3000 +</span>
                         </h2>
 
-                        <h3 id="txt1">Happy Costumers</h3>
+                        <h3 id="txt1">Happy Customers</h3>
 
                     </div>
 
@@ -760,21 +761,25 @@
         </section>
 
         <section style="background: black;">
-            <div style="display:flex;
+            <div>
+                <div style="display:flex;
              flex-direction:row;
              align-items: center;
              flex-wrap: wrap">
-                <div>
-                    <h2 style="color: white;">Sign Up Our Newsletter</h2>
-                    <p style="color: white;">We Offer An Informative Monthly Technology Newsletter - Check It Out.</p>
-                </div>
-                <div class="subscribe">
-                    <form style="position: relative;
+                    <div style="align-items: center;">
+                        <h2 style="color: white;">Sign Up Our Newsletter</h2>
+                        <p style="color: white;">We Offer An Informative Monthly Technology Newsletter - Check It Out.
+                        </p>
+                    </div>
+                    <div class="subscribe">
+                        <form style="position: relative;
                     box-sizing: border-box;
                     max-width: 580px">
-                        <input type="text" class="news" name="email" placeholder="Enter Your Email" autocomplete="off" required />
-                        <button type="submit" class="sub">Subscribe Now</button>
-                    </form>
+                            <input type="email" class="news" name="email" placeholder="Enter Your Email"
+                                autocomplete="off" required />
+                            <button type="submit" class="sub">Subscribe Now</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
