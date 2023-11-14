@@ -796,8 +796,6 @@ h5 {
 }
 
 .first-section {
-    padding-left: 250px;
-    padding-right: 50px;
     position: relative;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -826,10 +824,10 @@ h5 {
 
 .subscribe {
     position: relative;
-    margin-left: 1200px;
     margin-right: auto;
     flex: 0 0 auto;
     margin-top: 10px;
+    padding-left: 500px;
 
 }
 
@@ -847,14 +845,12 @@ input {
     color: #404040;
     font-size: 16px;
     font-weight: 600;
-    width: 400px;
+    width: 380px;
     height: 50px;
-    display: block;
     padding-left: 25px;
     border-radius: 5px;
     background-color: #ffffff;
     border: none;
-
 }
 
 .sub {
@@ -877,4 +873,21 @@ input {
     color: white;
     text-decoration: none;
     transition-duration: 0.6s;
+}
+
+.footer1{
+    align-items: center;
+    text-align: center;
+}
+
+.footer1 p{
+    color: white;
+}
+
+.fb{
+    background: ;
+}
+
+.fb:hover{
+    background: url("facebook2.png");
 }
