@@ -7,6 +7,8 @@
     <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
     <title>Demo Preview for Techvio - IT Solutions &amp; Business Services Website Template #187467</title>
     <link rel="stylesheet" href="style-main.css" />
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css"
         integrity="sha512-3PN6gfRNZEX4YFyz+sIyTF6pGlQiryJu9NlGhu9LrLMQ7eDjNgudQoFDK3WSNAayeIKc6B8WXXpo4a7HqxjKwg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,15 +24,15 @@
 
             <div class="Barra-de-navegacao">
 
-                <div id="logo">
-
-                    <a href="#"><img src="logo.png" alt="TECHVIO"></a>
-
-                </div>
-
                 <div class="header">
 
                     <nav class="nav-bar">
+
+                        <div id="logo">
+
+                            <a href="#"><img src="logo.png" alt="TECHVIO"></a>
+
+                        </div>
 
                         <div class="mobile-menu">
 
@@ -44,30 +46,62 @@
 
                         <ul class="nav-list">
 
-                            <li><a href="#" class="nav">Home</a></li>
+                            <li class="nav-item1"><a href="#" class="nav">Home<i class="fas fa-chevron-down"></i></a>
 
-                            <ul class="subnav">
+                                <ul class="dropdown">
 
-                                <li><a href="#">Home 1</a></li>
+                                    <li class="drop-item"><a href="#">Home 1</a></li>
 
-                                <li><a href="#">Home 2</a></li>
+                                    <li class="drop-item"><a href="#">Home 2</a></li>
 
-                                <li><a href="#">Home 3</a></li>
+                                    <li class="drop-item"><a href="#">Home 3</a></li>
 
-                                <li><a href="#">Home 4</a></li>
+                                    <li class="drop-item"><a href="#">Home 4</a></li>
 
-                            </ul>
-                            <li><a href="#">About Us</a></li>
+                                </ul>
+                            </li>
 
-                            <li><a href="#">Services</a></li>
+                            <li class="nav-item2"><a href="#">About Us</a></li>
 
-                            <li><a href="#">Portfolio</a></li>
+                            <li class="nav-item3"><a href="#" class="nav">Services<i
+                                        class="fas fa-chevron-down"></i></a>
+                                <ul class="dropdown">
+                                    <li class="drop-item"><a href="#">Services</a></li>
+                                    <li class="drop-item"><a href="#">Services Details</a></li>
+                                </ul>
+                            </li>
 
-                            <li><a href="#">Pages</a></li>
 
-                            <li><a href="#">Blog</a></li>
+                            <li class="nav-item4"><a href="#" class="nav">Portfolio<i
+                                        class="fas fa-chevron-down"></i></a>
+                                <ul class="dropdown">
+                                    <li class="drop-item"><a href="#">Portfolio</a></li>
+                                    <li class="drop-item"><a href="#">Portfolio Details</a></li>
+                                </ul>
+                            </li>
 
-                            <li><a href="#">Contact</a></li>
+                            <li class="nav-item5"><a href="#" class="nav">Pages<i class="fas fa-chevron-down"></i></a>
+                                <ul class="dropdown">
+                                    <li class="drop-item"><a href="#">About Us</a></li>
+                                    <li class="drop-item"><a href="#">Team</a></li>
+                                    <li class="drop-item"><a href="#">Pricing</a></li>
+                                    <li class="drop-item"><a href="404.error">404 Error</a></li>
+                                    <li class="drop-item"><a href="#">FAQ</a></li>
+                                    <li class="drop-item"><a href="#">Coming Soon</a></li>
+                                    <li class="drop-item"><a href="#">Terms & Conditions</a></li>
+                                    <li class="drop-item"><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item6"><a href="#" class="nav">Blog<i class="fas fa-chevron-down"></i></a>
+                                <ul class="dropdown">
+                                    <li class="drop-item"><a href="#">Blog Grid</a></li>
+                                    <li class="drop-item"><a href="#">Blog Right Sidebar</a></li>
+                                    <li class="drop-item"><a href="#">Blog Details</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item"><a href="#">Contact</a></li>
                         </ul>
 
                     </nav>
@@ -586,19 +620,33 @@
                 <div class="team-images">
 
                     <div>
+                        <div>
+                            <img src="team-1.jpg" id="team">
+                            <div class="team-social-icon">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div>
 
-                        <img src="team-1.jpg" id="team">
+                            <h2 style="font-size: 20px;"><strong>Ava Farrington</strong></h2>
 
-                        <h2 style="font-size: 20px;"><strong>Ava Farrington</strong></h2>
-
-                        <h5 style="font-size: 17px;
+                            <h5 style="font-size: 17px;
                         font-weight: 500;">Founder, CEO</h5>
-
+                        </div>
                     </div>
 
-                    <div>
+                    <div >
 
-                        <img src="team-2.jpg" id="team">
+                        <div class="image-team">
+                            <img src="team-2.jpg" id="team">
+                            <div class="team-social-icon">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
 
                         <h2 style="font-size: 20px;"><strong>Kevin Haley</strong></h2>
 
@@ -607,10 +655,17 @@
 
                     </div>
 
-                    <div>
-
-                        <img src="team-3.jpg" id="team">
-
+                    <div >
+                        <div class="image-team">
+                            <div class="team-image">
+                                <img src="team-3.jpg" id="team">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
                         <h2 style="font-size: 20px;"><strong>Alishia Fulton</strong></h2>
 
                         <h5 style="font-size: 17px;
@@ -618,9 +673,16 @@
 
                     </div>
 
-                    <div>
+                    <div class="image-team">
 
-                        <img src="team-4.jpg" id="team">
+                        <div class="team-image">
+                            <img src="team-4.jpg" id="team">
+                            <div class="team-social-icon">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
 
                         <h2 style="font-size: 20px;"><strong>Lucas Martinez</strong></h2>
 
@@ -821,7 +883,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div  style="width: 16,666666666667%;">
+                    <div style="width: 16,666666666667%;">
                         <div class="footer2">
                             <div class="heading">
                                 <h3>Our Services</h3>
@@ -859,42 +921,64 @@
                                 <h3>Contact Info</h3>
                             </div>
                         </div>
-                        <div>
-                            <div style="display: flex;
-                            flex-direction: row;">
-                                <img src="phone.png">
-                                <div style="padding-top: 30px;">
-                                    <h3 style="color: #ffffff;
-                                    font-size: 18px;
-                                    font-weight: 600;">Phone</h3>
-                                    <span>
-                                        <a href="tel:123456789" class="foo" style="font-family: 'Catamaran';">080 707
-                                            555-321</a>
-                                    </span>
-                                </div>
+                        <div style="height: 180px;
+                        padding-top: 10px;">
+                            <div style="
+                            display: block;
+                            box-sizing: border-box;
+                            position: relative;
+                            padding-left: 35px;">
+                                <img style="color: #ffffff;
+                                position: absolute;
+                                top: 0;
+                                left: 0;" src="phone.png">
+
+                                <h3 style="color: #ffffff;
+                                    font-size: 16px;
+                                    font-weight: 600;    margin: 0 0 10px 0;">Phone</h3>
+                                <span>
+                                    <a href="tel:123456789" class="foo"
+                                        style="font-family: 'Catamaran'; font-size: 15px;">080 707
+                                        555-321</a>
+                                </span>
+
                             </div>
-                            <div style="display: flex;
-                            flex-direction: row;">
-                                <img src="email.png">
-                                <div style="padding-top: 30px;">
+                            <div style="
+                            display: block;
+                            box-sizing: border-box;
+                            position: relative;
+                            padding-left: 35px;">
+                                <img style="color: #ffffff;
+                                position: absolute;
+                                top: 28px;
+                                left: 0;" src="email.png">
+                                <div style="padding-top: 30px; margin: 0;">
                                     <h3 style="color: #ffffff;
-                                    font-size: 18px;
+                                    font-size: 16px;
                                     font-weight: 600;">Email</h3>
                                     <span>
                                         <a href="mailto:demo@example.com" class="foo"
-                                            style="font-family: 'Catamaran';">demo@example.com</a>
+                                            style="font-family: 'Catamaran'; font-size: 15px;">demo@example.com</a>
                                     </span>
                                 </div>
                             </div>
-                            <div style="display: flex;
-                            flex-direction: row;">
-                                <img src="location.png">
-                                <div style="padding-top: 30px;">
+                            <div style="
+                            display: block;
+                            box-sizing: border-box;
+                            position: relative;
+                            padding-left: 35px;
+                            margin-bottom: 16px;">
+                                <img style="color: #ffffff;
+                                position: absolute;
+                                top: 30px;
+                                left: 0;" src="location.png">
+                                <div style="padding-top: 30px; margin: 0;">
                                     <h3 style="color: #ffffff;
-                                    font-size: 18px;
+                                    font-size: 16px;
                                     font-weight: 600;">Adress</h3>
                                     <span>
-                                        <p style="font-family: 'Catamaran'; color: #ffffff;">526 Melrose Street, Water
+                                        <p style="font-family: 'Catamaran'; color: #ffffff; font-size: 15px;">526
+                                            Melrose Street, Water
                                             Mill, 11976 New York</p>
                                     </span>
                                 </div>
@@ -903,9 +987,51 @@
                     </div>
                 </div>
             </div>
-    </div>
-    </div>
-    </section>
+        </section>
+        <div class="copyright">
+            <div style="align-items: center; display: flex;
+            flex-wrap: wrap;">
+                <div style="flex: 0 0 auto;
+                width: 100%;">
+                    <p style="color: white;"><i class="far fa-copyright"></i> 2023 Techvio - All Rights Reserved</p>
+                </div>
+            </div>
+            <div style="display: flex;
+            flex-direction: row;">
+                <div style="color: white; flex: 0 0 auto;
+            width: 50%;;">
+                    <ul style="padding: 0;
+                list-style: none;
+                margin-left: 0;">
+                        <li style="position: relative;
+            color: #ececec;
+            font-size: 15px;
+            display: inline-block;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 100%;">
+                            <a href="#" class="cond">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <h1 style="color: white; padding-left: 10px; padding-top: 3px; font-weight: 400;">|</h1>
+                <div style="color: white; flex: 0 0 auto;
+            width: 50%;;">
+                    <ul style="padding: 0;
+                list-style: none;
+                margin-left: 0;">
+                        <li style="position: relative;
+            color: #ececec;
+            font-size: 15px;
+            display: inline-block;
+            margin-left: 10px;
+            margin-right: 10px;">
+                            <a href="#" class="cond">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
     </div>
 
