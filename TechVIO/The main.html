@@ -4,14 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script type="text/javascript" src="jquery.js"></script>
     <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
     <title>Demo Preview for Techvio - IT Solutions &amp; Business Services Website Template #187467</title>
     <link rel="stylesheet" href="style-main.css" />
-    <script src="jquery.js"></script>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css"
-        integrity="sha512-3PN6gfRNZEX4YFyz+sIyTF6pGlQiryJu9NlGhu9LrLMQ7eDjNgudQoFDK3WSNAayeIKc6B8WXXpo4a7HqxjKwg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" />
     <meta name="description"
         content="Experience the demo preview for the premium Techvio - IT Solutions &amp; Business Services Website Template Website Template (#187467) to learn what this template is before you decide to buy it. Go through the pages, check out the images, click the buttons, explore the functionality." />
 </head>
@@ -30,7 +28,7 @@
 
                         <div id="logo">
 
-                            <a href="#"><img src="logo.png" alt="TECHVIO"></a>
+                            <a href="#"><img src="logo-black.png" alt="TECHVIO"></a>
 
                         </div>
 
@@ -48,7 +46,7 @@
 
                             <li class="nav-item1"><a href="#" class="nav">Home<i class="fas fa-chevron-down"></i></a>
 
-                                <ul class="dropdown">
+                                <ul class="dropdown1">
 
                                     <li class="drop-item"><a href="#">Home 1</a></li>
 
@@ -61,27 +59,27 @@
                                 </ul>
                             </li>
 
-                            <li class="nav-item2"><a href="#">About Us</a></li>
+                            <li class="nav-item"><a href="#">About Us</a></li>
 
-                            <li class="nav-item3"><a href="#" class="nav">Services<i
+                            <li class="nav-item2"><a href="#" class="nav">Services<i
                                         class="fas fa-chevron-down"></i></a>
-                                <ul class="dropdown">
+                                <ul class="dropdown2">
                                     <li class="drop-item"><a href="#">Services</a></li>
                                     <li class="drop-item"><a href="#">Services Details</a></li>
                                 </ul>
                             </li>
 
 
-                            <li class="nav-item4"><a href="#" class="nav">Portfolio<i
+                            <li class="nav-item3"><a href="#" class="nav">Portfolio<i
                                         class="fas fa-chevron-down"></i></a>
-                                <ul class="dropdown">
+                                <ul class="dropdown3">
                                     <li class="drop-item"><a href="#">Portfolio</a></li>
                                     <li class="drop-item"><a href="#">Portfolio Details</a></li>
                                 </ul>
                             </li>
 
-                            <li class="nav-item5"><a href="#" class="nav">Pages<i class="fas fa-chevron-down"></i></a>
-                                <ul class="dropdown">
+                            <li class="nav-item4"><a href="#" class="nav">Pages<i class="fas fa-chevron-down"></i></a>
+                                <ul class="dropdown4">
                                     <li class="drop-item"><a href="#">About Us</a></li>
                                     <li class="drop-item"><a href="#">Team</a></li>
                                     <li class="drop-item"><a href="#">Pricing</a></li>
@@ -93,8 +91,8 @@
                                 </ul>
                             </li>
 
-                            <li class="nav-item6"><a href="#" class="nav">Blog<i class="fas fa-chevron-down"></i></a>
-                                <ul class="dropdown">
+                            <li class="nav-item5"><a href="#" class="nav">Blog<i class="fas fa-chevron-down"></i></a>
+                                <ul class="dropdown5">
                                     <li class="drop-item"><a href="#">Blog Grid</a></li>
                                     <li class="drop-item"><a href="#">Blog Right Sidebar</a></li>
                                     <li class="drop-item"><a href="#">Blog Details</a></li>
@@ -519,7 +517,7 @@
                     <div>
 
                         <h2 id="txt">
-                            <span class="numero-contador">23 +</span>
+                            <span class="numero_contador">23 +</span>
                         </h2>
 
                         <h3 id="txt1">Years Helping Business</h3>
@@ -531,7 +529,7 @@
                 <div class="contador">
 
                     <h2 id="txt">
-                        <span class="numero-contador">250 +</span>
+                        <span class="numero_contador">250 +</span>
                     </h2>
 
                     <h3 id="txt1">Working Employees</h3>
@@ -543,7 +541,7 @@
                     <div>
 
                         <h2 id="txt">
-                            <span class="numero-contador">4500 +</span>
+                            <span class="numero_contador">4500 +</span>
                         </h2>
 
                         <h3 id="txt1">Complete Projects</h3>
@@ -557,7 +555,7 @@
                     <div>
 
                         <h2 id="txt">
-                            <span class="numero-contador">3000 +</span>
+                            <span class="numero_contador">3000 +</span>
                         </h2>
 
                         <h3 id="txt1">Happy Customers</h3>
@@ -587,18 +585,27 @@
             </div>
 
 
-            <div class="clients">
+            <div class="clients-slider">
 
-                <center>
-
+                <div class="slides">
+                    <input type="radio" name="raido-btn" id="radio1">
+                    <input type="radio" name="raido-btn" id="radio2">
+                    <input type="radio" name="raido-btn" id="radio3">
+                </div>
+                <div class="slide-first">
                     <img src="Client1.png">
-
+                </div>
+                <div class="slide">
                     <img src="Client2.png">
-
+                </div>
+                <div class="slide">
                     <img src="Client3.png">
-
-                </center>
-
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
             </div>
 
         </section>
@@ -619,14 +626,14 @@
 
                 <div class="team-images">
 
-                    <div>
-                        <div>
-                            <img src="team-1.jpg" id="team">
-                            <div class="team-social-icon">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                            </div>
+                    <div id="team1">
+                        <div class="image-team">
+                            <img src="team-1.jpg" class="team1">
+                        </div>
+                        <div class="team-social-icon">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
                         </div>
                         <div>
 
@@ -637,17 +644,16 @@
                         </div>
                     </div>
 
-                    <div >
+                    <div id="team2" style="margin-left: 15px;">
 
                         <div class="image-team">
-                            <img src="team-2.jpg" id="team">
-                            <div class="team-social-icon">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                            </div>
+                            <img src="team-2.jpg" class="team2">
                         </div>
-
+                        <div class="team-social-icon">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
                         <h2 style="font-size: 20px;"><strong>Kevin Haley</strong></h2>
 
                         <h5 style="font-size: 17px;
@@ -655,16 +661,16 @@
 
                     </div>
 
-                    <div >
+                    <div id="team3" style="margin-left: 15px;">
                         <div class="image-team">
                             <div class="team-image">
-                                <img src="team-3.jpg" id="team">
-                                <div class="team-social-icon">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                </div>
+                                <img src="team-3.jpg" class="team3">
                             </div>
+                        </div>
+                        <div class="team-social-icon">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
                         </div>
                         <h2 style="font-size: 20px;"><strong>Alishia Fulton</strong></h2>
 
@@ -673,17 +679,17 @@
 
                     </div>
 
-                    <div class="image-team">
-
-                        <div class="team-image">
-                            <img src="team-4.jpg" id="team">
-                            <div class="team-social-icon">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <div id="team4" style="margin-left: 15px;">
+                        <div class="image-team">
+                            <div class="team-image">
+                                <img src="team-4.jpg" class="team4">
                             </div>
                         </div>
-
+                        <div class="team-social-icon">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
                         <h2 style="font-size: 20px;"><strong>Lucas Martinez</strong></h2>
 
                         <h5 style="font-size: 17px;

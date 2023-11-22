@@ -6,6 +6,7 @@ html {
 }
 
 * {
+    scroll-behavior: smooth;
     margin: auto;
     padding: auto;
 
@@ -31,13 +32,6 @@ html body {
 .nav {
     display: flex;
     flex-direction: row;
-}
-
-.dropdown {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    max-width: 100px;
 }
 
 .nav-list .fas {
@@ -68,24 +62,103 @@ html body {
     list-style: none;
 }
 
-.dropdown {
-    width: 230px;
+.dropdown1 {
+    position: relative;
+    display: block;
+    width: 70px;
     padding: 0;
     border-radius: 3px;
-    visibility: hidden;
-    overflow: hidden;
-    display: none;
+    visibility: visible;
     background-color: #ffffff;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
     border: none;
 }
 
-.nav-list:hover .dropdown {
-    display: block;
+.nav-item1 a,
+.nav-item2 a,
+.nav-item3 a,
+.nav-item4 a,
+.nav-item5 a,
+.nav-item a {
+    color: black;
+}
+
+.nav-item1:hover .dropdown1 {
     visibility: visible;
 }
 
-.nav-list .dropdown{
+.dropdown2 {
+    position: relative;
+    display: block;
+    flex-direction: column;
+    width: 100px;
+    padding: 0;
+    border-radius: 3px;
+    visibility: hidden;
+    top: 100px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: .5s;
+}
+
+.nav-item2:hover .dropdown2 {
+    visibility: visible;
+    top: 0;
+}
+
+.dropdown3 {
+    position: relative;
+    display: block;
+    flex-direction: column;
+    width: 100px;
+    padding: 0;
+    border-radius: 3px;
+    visibility: hidden;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.nav-item3:hover .dropdown3 {
+    visibility: visible;
+}
+
+.dropdown4 {
+    position: relative;
+    display: block;
+    flex-direction: column;
+    width: 100px;
+    padding: 0;
+    border-radius: 3px;
+    visibility: hidden;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.nav-item4:hover .dropdown4 {
+    visibility: visible;
+}
+
+.dropdown5 {
+    position: relative;
+    display: block;
+    flex-direction: column;
+    width: 100px;
+    padding: 0;
+    border-radius: 3px;
+    visibility: hidden;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.nav-item5:hover .dropdown5 {
+    visibility: visible;
+}
+
+.nav-list .dropdown {
     transition-duration: all 0.5s ease-in-out;
 }
 
@@ -93,17 +166,17 @@ html body {
     list-style: none;
     padding-top: 10px;
     padding-bottom: 5px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid gray;
     padding-left: 0;
     margin-left: 0;
     transition: 0.2s;
 }
 
-.drop-item:hover{
+.drop-item:hover {
     background-color: #7b68ee;
 }
 
-.drop-item:hover a{
+.drop-item:hover a {
     color: white;
 }
 
@@ -296,7 +369,7 @@ nav {
 .Barra-de-navegacao {
     padding-bottom: 10px;
     display: flex;
-    background-color: transparent;
+    background-color: white;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -754,10 +827,78 @@ div.container,
     margin-top: 10px;
 }
 
-.clients {
-    text-align: center;
-    display: block;
-    margin-top: 50px;
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+    z-index: 1;
+}
+
+.clients-slider {
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    transition: 1s;
+}
+
+.clients-slider .all {
+    flex-direction: row;
+    display: flex;
+}
+
+.slide {
+    position: relative;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio1:checked~.first {
+    margin-left: -33.333333%;
+}
+
+#radio1:checked~.first {
+    margin-left: -66.66666%;
+}
+
+.navigation-auto div {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.navigation-auto {
+    width: 800px;
+    position: absolute;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background-color: black;
+}
+
+#radio1:checked~.navigation-auto .auto-btn2 {
+    background-color: black;
+}
+
+#radio1:checked~.navigation-auto .auto-btn3 {
+    background-color: black;
 }
 
 .clients img {
@@ -773,50 +914,54 @@ div.container,
     width: 70%;
     text-align: center;
     margin-bottom: 100px;
+    cursor: default;
 }
 
-#team {
+
+.team-social-icon {
+    position: relative;
+    top: -200px;
+    width: 90%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 18px;
+    visibility: hidden;
+}
+
+.team1,
+.team2,
+.team3,
+.team4 {
     width: 100%;
     height: auto;
     transition: 0.5s;
     max-width: 100%;
     border-radius: 5px;
     vertical-align: middle;
+    cursor: default;
 }
 
-.team-social-icon {
-    position: absolute;
-    z-index: 5;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateY(-50%);
-}
-
-.team-social-icon a {
-    color: #fff;
-    font-size: 18px;
-    padding: 15px;
-    opacity: 0;
-    visibility: hidden;
-    display: inline-block;
-    transform: scale(0);
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-    will-change: transform;
-}
-
-#team:hover {
+#team1:hover .team1,
+#team2:hover .team2,
+#team3:hover .team3,
+#team4:hover .team4 {
     transform: scale(1.1);
     opacity: .2;
-    visibility: visible;
     z-index: -1;
-
+    cursor: default;
 }
 
-.image-team{
-    background-color:rgba(0, 0, 0, 0.9);
+#team1:hover .team-social-icon,
+#team2:hover .team-social-icon,
+#team3:hover .team-social-icon,
+#team4:hover .team-social-icon {
+    visibility: visible;
+}
+
+.image-team {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
 }
 
 h5 {
@@ -856,15 +1001,8 @@ h5 {
     padding-right: 10px;
 }
 
-.clients {
-    flex-wrap: wrap;
-    margin-left: -5px;
-    margin-right: -5px;
-    display: flex;
-}
-
 #client img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     border-radius: 5px;
 }
@@ -1002,7 +1140,7 @@ input {
     border: 0px solid #ffffff;
     background-color: #ffffff;
     transition: 0.4s;
-
+    z-index: 99;
 }
 
 .fa-facebook-f,

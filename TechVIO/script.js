@@ -1,4 +1,7 @@
-$('.numero-contador').counterUp({
-    delay: 15,
-    time: 2000
-});
+counter = 0;
+
+while (counter != 23) {
+    console.log(counter);
+    counter++;
+    
+}
