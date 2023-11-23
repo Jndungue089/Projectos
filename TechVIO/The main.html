@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <script type="text/javascript" src="jquery.js"></script>
     <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
     <title>Demo Preview for Techvio - IT Solutions &amp; Business Services Website Template #187467</title>
     <link rel="stylesheet" href="style-main.css" />
@@ -292,7 +291,7 @@
         padding: 100px 0;
         box-sizing: border-box;
         display: block;
-        ">
+        " onscroll="myFunction()">
 
             <div style="max-width: 1140px;
             display: flex;
@@ -315,10 +314,20 @@
                         et
                         dolore magna aliqua enim ad minim</p>
 
-                    <div class="skiil-item">
+                    <div class="skiil-item" >
 
                         <h4>IT Consulting
-                            <em>90%</em>
+                            <p></p><span id="demo">90</span>%</p>
+                            <script>
+                                let x = 0;
+                                setInterval(function(){myFunction(), 50})
+                                function myFunction() {
+                                    document.getElementById("demo").innerHTML = x;
+                                    while (x != 90) {
+                                        x++;
+                                    }
+                                }
+                            </script>
                         </h4>
 
                         <div class="skill-progress">
@@ -584,30 +593,35 @@
 
             </div>
 
-
             <div class="clients-slider">
 
                 <div class="slides">
                     <input type="radio" name="raido-btn" id="radio1">
                     <input type="radio" name="raido-btn" id="radio2">
                     <input type="radio" name="raido-btn" id="radio3">
+                    <div class="slide-first">
+                        <img src="Client1.png" alt="Imagem 1">
+                    </div>
+                    <div class="slide2">
+                        <img src="Client2.png" alt="Imagem 2">
+                    </div>
+                    <div class="slide3">
+                        <img src="Client3.png" alt="Imagem 3">
+                    </div>
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
                 </div>
-                <div class="slide-first">
-                    <img src="Client1.png">
-                </div>
-                <div class="slide">
-                    <img src="Client2.png">
-                </div>
-                <div class="slide">
-                    <img src="Client3.png">
-                </div>
-                <div class="navigation-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
                 </div>
             </div>
-
+            <script src="script.js"></script>
         </section>
 
         <section class="team">
