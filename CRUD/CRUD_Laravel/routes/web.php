@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\CandidatoController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Candidato;
 
@@ -15,54 +16,38 @@ use App\Models\Candidato;
 |
 */
 # Página inicial
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [CandidatoController::class, 'index']);
 
 # Rota para cadastrar candidato
-Route::post('/cadastrar_candidato', function(Request $informacoes){
+Route::post('/cadastrar_candidato', function (Request $informacoes) {
     Candidato::create([
-        'nome' =>$informacoes->nome_candidato,
-        'telefone' =>$informacoes->telefone_candidato,
-        'email' =>$informacoes->email_candidato
+        'nome' => $informacoes->nome_candidato,
+        'telefone' => $informacoes->telefone_candidato,
+        'email' => $informacoes->email_candidato
     ]);
-    echo "Candidato criado com sucesso! ";
-    echo "<a href='\' style='text-decoration: none;'>Voltar à página inicial</a>";
-});
-
-# Rota para mostrar o candidato
-Route::get('/mostrar-candidato/{id_do_candidato?}', function($id_do_candidato){
-    $candidato = Candidato::find($id_do_candidato);
-    if ($candidato) {
-        
-    }
-    echo $candidato->nome;# Mostra o nome do candidato
-    echo "<br>";
-    echo $candidato->telefone;# Mostra o nome do telefone
-    echo "<br>";
-    echo $candidato->email;
+    return redirect('/')->with('success', 'Candidato criado com sucesso!');
 });
 
 # Rota para editar candidato
-Route::get('/editar-candidato/{id_do_candidato?}', function($id_do_candidato){
+Route::get('/editar-candidato/{id_do_candidato?}', function ($id_do_candidato) {
     $candidato = Candidato::findOrFail($id_do_candidato);
-    return view('editar_candidato', ['candidato'=> $candidato]);# Retorna a página para editar candidato
+    return view('editar_candidato', ['candidato' => $candidato]);
 });
 
-#nRota para atualizar candidato
-Route::put('/atualizar-candidato/{id_do_candidato}', function(Request $informacoes, $id_do_candidato){
-    $candidato =Candidato::findOrFail($id_do_candidato);
+# Rota para atualizar candidato
+Route::put('/atualizar-candidato/{id_do_candidato}', function (Request $informacoes, $id_do_candidato) {
+    $candidato = Candidato::findOrFail($id_do_candidato);
     $candidato->nome = $informacoes->nome_candidato;
     $candidato->telefone = $informacoes->telefone_candidato;
     $candidato->email = $informacoes->email_candidato;
-    $candidato->save();# Função para atualizar candidato reescrevendo
-    echo "Candidato atualizado com sucesso!";
+    $candidato->save();
+    return redirect('/')->with('success', 'Candidato atualizado com sucesso!');
 });
 
-#Rota para excluir candidato
-Route::get('/excluir-candidato/{id_do_candidato?}', function($id_do_candidato){
-    $candidato = Candidato::findOrFail($id_do_candidato); 
-    $candidato->delete(); #Função para deletar candidato
-    echo "Candidato excluído com sucesso!"; 
+# Rota para excluir candidato
+Route::get('/excluir-candidato/{id_do_candidato?}', function ($id_do_candidato) {
+    $candidato = Candidato::findOrFail($id_do_candidato);
+    $candidato->delete();
+    return redirect('/')->with('success', 'Candidato excluído com sucesso!');
 });
 

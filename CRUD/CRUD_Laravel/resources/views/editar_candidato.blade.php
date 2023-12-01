@@ -202,7 +202,7 @@
                         </div>
                     </div>
                     <div class="btn1">
-                        <button class="enviar">Enviar Cadastro</button>
+                        <button class="enviar">Atualizar Cadastro</button>
                     </div>
                 </form>
             </div>
