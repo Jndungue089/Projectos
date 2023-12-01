@@ -9,5 +9,5 @@ class Candidato extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['nome', 'telefone'];
+    protected $fillable = ['nome', 'telefone', 'email'];
 }
