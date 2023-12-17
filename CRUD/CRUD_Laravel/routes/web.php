@@ -16,38 +16,16 @@ use App\Models\Candidato;
 |
 */
 # Página inicial
-Route::get('/', [CandidatoController::class, 'index']);
-
-# Rota para cadastrar candidato
-Route::post('/cadastrar_candidato', function (Request $informacoes) {
-    Candidato::create([
-        'nome' => $informacoes->nome_candidato,
-        'telefone' => $informacoes->telefone_candidato,
-        'email' => $informacoes->email_candidato
-    ]);
-    return redirect('/')->with('success', 'Candidato criado com sucesso!');
+Route::prefix('candidatos')->group(function () {
+    Route::get('/', [CandidatoController::class, 'index'])->name('candidatos-index');
+    Route::get('/create', [CandidatoController::class, 'create'])->name('candidatos-create');
+    Route::post('/create', [CandidatoController::class, 'store'])->name('candidatos-store');
+    Route::get('/{id}/edit', [CandidatoController::class, 'edit'])->where('id', '[0-9]+')->name('candidatos-edit');
+    Route::put('/{id}', [CandidatoController::class, 'update'])->where('id', '[0-9]+')->name('candidatos-update');
+    Route::delete('/candidatos/{id}', [CandidatoController::class, 'destroy'])->name('candidatos-destroy');
 });
 
-# Rota para editar candidato
-Route::get('/editar-candidato/{id_do_candidato?}', function ($id_do_candidato) {
-    $candidato = Candidato::findOrFail($id_do_candidato);
-    return view('editar_candidato', ['candidato' => $candidato]);
+Route::fallback(function()
+{
+    return "Erro!";
 });
-
-# Rota para atualizar candidato
-Route::put('/atualizar-candidato/{id_do_candidato}', function (Request $informacoes, $id_do_candidato) {
-    $candidato = Candidato::findOrFail($id_do_candidato);
-    $candidato->nome = $informacoes->nome_candidato;
-    $candidato->telefone = $informacoes->telefone_candidato;
-    $candidato->email = $informacoes->email_candidato;
-    $candidato->save();
-    return redirect('/')->with('success', 'Candidato atualizado com sucesso!');
-});
-
-# Rota para excluir candidato
-Route::get('/excluir-candidato/{id_do_candidato?}', function ($id_do_candidato) {
-    $candidato = Candidato::findOrFail($id_do_candidato);
-    $candidato->delete();
-    return redirect('/')->with('success', 'Candidato excluído com sucesso!');
-});
-

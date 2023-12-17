@@ -11,12 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('candidatos', function (Blueprint $table){
+        Schema::create('candidatos', function (Blueprint $table) {
             $table->id();
-            $table->string('nome');
-            $table->string('telefone');
-            $table->string('email');
+            $table->string('nome', 55);
+            $table->string('telefone', 20);
+            $table->string('email', 60);
             $table->timestamps();
+            $table->softDeletes(); // This adds the `deleted_at` column
         });
     }
 
@@ -25,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('candidatos');
     }
 };
