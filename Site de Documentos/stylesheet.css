@@ -1,0 +1,26 @@
+.text-capitalize {
+    font-weight: 600;
+}
+
+.collapse{
+    height: 50px;
+}
+
+.carousel-item img {
+    width: 600px;
+    height: 600px;
+}
+
+.btn {
+    font-size: 20px;
+}
+
+.text {
+    font-size: 16px;
+    padding-left:170px;
+    width: 90%;
+}
+
+.page-content{
+    margin-top: 80px;
+}
