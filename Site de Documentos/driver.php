@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bilhete De Identidade</title>
+    <title>Carta de Condução</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -42,84 +42,60 @@
         </div>
     </nav>
     <div class="page-content container-fluid">
-        <h1 class="text-center">BILHETE DE IDENTIDADE (BI)</h1>
+        <h1 class="text-center">
+            Carta de Condução em Angola: Navegando pelas Estradas da Mobilidade Responsável</h1>
         <div class="container mt-5">
-            <img src="bi.png" alt="BI" style="width: 100%;">
+            <img src="driver.png" alt="Driver" style="width: 100%;">
         </div>
         <div class="container mt-5">
-            <p>O Bilhete de Identidade, elemento vital na experiência cidadã angolana,
-                transcende sua existência como um mero documento. Ele é a expressão
-                tangível da identidade de um indivíduo, uma peça que une passado,
-                presente e futuro em um testemunho visual da existência e cidadania.
-                Mais do que um simples cartão, o Bilhete de Identidade angolano é um
-                elo comum que une a rica diversidade do povo angolano.</p>
+            <p>A Carta de Condução em Angola é mais do que um simples documento que permite operar um veículo; é um símbolo de responsabilidade, mobilidade e participação ativa na sociedade. Este documento desempenha um papel vital na vida dos cidadãos, proporcionando não apenas a liberdade de dirigir, mas também estabelecendo padrões para uma condução segura e consciente.</p>
             <div class="text-center mt-5">
-                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#importanceModal">Importância do Bilhete de Identidade Angolano</a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#importanceModal">Importância da Carta de Condução</a>
             </div>
             <div class="modal fade" id="importanceModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header bg-primary">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Importância do BI
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Importância da Carta de Condução
                             </h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <ol>
-                                <li><strong>Identificação e Reconhecimento:</strong> O Bilhete de Identidade é o certificado
-                                    oficial que atesta quem somos. Ele é fundamental para a identificação e reconhecimento legal
-                                    de um cidadão angolano em diversos contextos, como educação, saúde, emprego e outros aspectos
-                                    da vida cotidiana.</li>
-                                <li><strong>Participação Cívica:</strong> Além de ser uma ferramenta de identificação, o Bilhete
-                                    de Identidade é essencial para a participação ativa no processo democrático. É um requisito para
-                                    exercer o direito de voto durante as eleições, contribuindo assim para a construção e manutenção
-                                    de uma sociedade justa e equitativa.
-                                </li>
-                                <li><strong>Acesso a Serviços Públicos:</strong> Muitos serviços governamentais e
-                                    públicos
-                                    exigem documentos
-                                    específicos para serem acessados. Ter os documentos corretos em ordem simplifica
-                                    processos
-                                    administrativos e evita complicações desnecessárias.</li>
-                                <li><strong>Registro Civil e Histórico Pessoal:</strong> O Bilhete de Identidade é uma peça-chave
-                                    no registro civil, atestando o nascimento e a trajetória legal do cidadão. Ele não apenas valida
-                                    a identidade, mas também é parte integrante do legado histórico pessoal.</li>
+                                <li><strong>Mobilidade e Independência:</strong> A Carta de Condução confere aos cidadãos a liberdade de se locomoverem de forma independente. Facilita o acesso a oportunidades de trabalho, educação e lazer, promovendo a mobilidade pessoal.</li>
+                                <li><strong>Responsabilidade na Condução:</strong> Ao obter a Carta de Condução, os indivíduos assumem a responsabilidade de operar veículos de forma segura e respeitosa. Este documento destaca a importância de seguir as leis de trânsito e contribuir para a segurança rodoviária.</li>
+                                <li><strong>Participação na Economia:</strong> Muitos empregos e atividades econômicas exigem a capacidade de conduzir. A posse da Carta de Condução amplia as oportunidades de emprego e participação em setores que dependem da mobilidade.</li>
+                                <li><strong>Integração Social:</strong> A Carta de Condução é um meio de integração social, permitindo que os indivíduos participem ativamente em eventos sociais, encontros familiares e outras atividades que envolvem deslocações.</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#obterModal">Como Obter o Bilhete de Identidade Angolano?</a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#obterModal">Como Obter a Carta de Condução?</a>
             </div>
             <div class="modal fade" id="obterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header bg-primary">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Passos Para Obter o Bilhete de Identidade Angolano
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Passos Para Obter a Carta de Condução Angolana
                             </h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <ol>
-                                <li><strong>Requisitos Básicos:</strong> Geralmente, para obter o Bilhete de Identidade, é necessário apresentar certidão
-                                    de nascimento, comprovante de residência e outros documentos que variam conforme a jurisdição.</li>
-                                <li><strong>Dirigir-se à Repartição de Identificação Civil: </strong> O próximo passo envolve
-                                    dirigir-se à Repartição de Identificação Civil, onde o processo de emissão é conduzido. É importante estar ciente dos
-                                    requisitos específicos da região.
+                                <li><strong>Formação Teórica e Prática:</strong> O processo para obter a Carta de Condução geralmente inclui a participação em cursos de formação teórica e prática. Isso garante que os futuros condutores estejam cientes das regras de trânsito e possuam as habilidades necessárias para conduzir com segurança.</li>
+                                <li><strong>Exames Oficiais:</strong> Os candidatos são submetidos a exames teóricos e práticos para avaliar seu conhecimento e habilidades de condução. A aprovação nestes exames é essencial para a obtenção da Carta de Condução.
                                 </li>
-                                <li><strong>Preencher Formulários e Fotografias: </strong> Ao chegar à repartição, os candidatos preenchem formulários,
-                                    fornecem fotografias recentes e pagam as taxas associadas ao processo.</li>
-                                <li><strong>Agendar e Aguardar Processamento:</strong> Em alguns casos, é necessário
-                                    agendar uma entrevista. Após o processamento, o Bilhete de Identidade é emitido e entregue
-                                    ao solicitante.</li>
+                                <li><strong>Documentação Necessária:</strong> Durante o processo de candidatura, são exigidos documentos como bilhete de identidade, atestado médico e comprovante de residência. É fundamental fornecer informações precisas e completas.</li>
+                                <li><strong>Emissão pela Entidade Competente:</strong> Após a conclusão bem-sucedida do processo, a Carta de Condução é emitida pela entidade competente, geralmente o Departamento de Trânsito ou uma instituição semelhante.</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vantagemModal">Vantagens de Possuir um Bilhete de Identidade Angolano</a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vantagemModal">Vantagens de Possuir uma Carta de Condução Angolana</a>
             </div>
             <div class="modal fade" id="vantagemModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -131,26 +107,19 @@
                         </div>
                         <div class="modal-body">
                             <ol>
-                                <li><strong>Facilita a Vida Diária:</strong> Ter o Bilhete de Identidade simplifica várias
-                                    atividades diárias, desde transações bancárias até o acesso a serviços públicos e privados.</li>
-                                <li><strong>Protege Contra Fraudes:</strong> Ao garantir a autenticidade da identidade, o Bilhete
-                                    de Identidade ajuda na prevenção de atividades ilegais, como fraude de identidade, proporcionando
-                                    uma base sólida para o sistema legal.
+                                <li><strong>Acesso a Oportunidades Profissionais:</strong> Muitas carreiras exigem mobilidade, e a Carta de Condução abre portas para oportunidades profissionais em diversos setores.</li>
+                                <li><strong>Condução Consciente e Responsável:</strong> A obtenção da Carta de Condução é acompanhada pela compreensão das responsabilidades do condutor. Isso promove uma cultura de condução consciente e segura.
                                 </li>
-                                <li><strong>Constitui Dever Cívico: </strong> Além de uma obrigação legal, possuir um Bilhete de
-                                    Identidade é um dever cívico, contribuindo para a construção de uma sociedade organizada e consciente.</li>
-                                <li><strong>Promove a Participação Cidadã: </strong>Ao fornecer acesso a direitos fundamentais, o Bilhete de
-                                    Identidade promove a participação cidadã, capacitando os indivíduos a contribuir ativamente para o desenvolvimento da nação.</li>
+                                <li><strong>Participação Ativa na Comunidade:</strong> A Carta de Condução facilita a participação em atividades comunitárias, eventos sociais e outras experiências que requerem deslocações.</li>
+                                <li><strong>Contribuição para a Economia:</strong> Ao permitir que os cidadãos se movam eficientemente, a Carta de Condução contribui para o funcionamento eficaz da economia, conectando pessoas e negócios.</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="mt-5"></div>
-            <h2>Motivação:</h2>
-            <p>O Bilhete de Identidade é mais do que um documento; é a narrativa visual da cidadania, um testemunho de pertencimento a uma nação que se orgulha de sua
-                diversidade e história. Sua obtenção e preservação não são apenas obrigações legais, mas um compromisso pessoal e coletivo com a construção de um futuro
-                sustentável e inclusivo para Angola.</p>
+            <h2>Em Resumo</h2>
+            <p>A Carta de Condução é mais do que uma permissão para conduzir; é um marco que simboliza a responsabilidade, a mobilidade e a participação ativa na vida. Ao guiar os cidadãos pelas estradas, este documento desempenha um papel crucial na construção de uma comunidade segura, conectada e consciente. Possuir uma Carta de Condução é mais do que um privilégio; é um compromisso com a segurança, a responsabilidade e a liberdade de explorar os caminhos da vida.</p>
         </div>
     </div>
 </body>

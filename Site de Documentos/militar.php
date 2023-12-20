@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bilhete De Identidade</title>
+    <title>Documento Militar</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -42,84 +42,62 @@
         </div>
     </nav>
     <div class="page-content container-fluid">
-        <h1 class="text-center">BILHETE DE IDENTIDADE (BI)</h1>
+        <h1 class="text-center">Documento Militar (Recenseamento Militar): Servindo com Comprometimento e Dever Cívico</h1>
         <div class="container mt-5">
-            <img src="bi.png" alt="BI" style="width: 100%;">
+            <img src="militar.jpg" alt="Passport" style="width: 100%;">
         </div>
         <div class="container mt-5">
-            <p>O Bilhete de Identidade, elemento vital na experiência cidadã angolana,
-                transcende sua existência como um mero documento. Ele é a expressão
-                tangível da identidade de um indivíduo, uma peça que une passado,
-                presente e futuro em um testemunho visual da existência e cidadania.
-                Mais do que um simples cartão, o Bilhete de Identidade angolano é um
-                elo comum que une a rica diversidade do povo angolano.</p>
+            <p>O Documento Militar, também conhecido como Recenseamento Militar, é mais do que uma simples formalidade; é um compromisso cívico e um símbolo do dever para com a nação. Este documento desempenha um papel fundamental na organização e preparação das forças de defesa, garantindo a segurança e soberania do país. Vamos explorar a importância, vantagens e o processo envolvido no Recenseamento Militar.</p>
             <div class="text-center mt-5">
-                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#importanceModal">Importância do Bilhete de Identidade Angolano</a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#importanceModal">Importância do Documento Militar</a>
             </div>
             <div class="modal fade" id="importanceModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header bg-primary">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Importância do BI
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Importância do Documento Militar
                             </h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <ol>
-                                <li><strong>Identificação e Reconhecimento:</strong> O Bilhete de Identidade é o certificado
-                                    oficial que atesta quem somos. Ele é fundamental para a identificação e reconhecimento legal
-                                    de um cidadão angolano em diversos contextos, como educação, saúde, emprego e outros aspectos
-                                    da vida cotidiana.</li>
-                                <li><strong>Participação Cívica:</strong> Além de ser uma ferramenta de identificação, o Bilhete
-                                    de Identidade é essencial para a participação ativa no processo democrático. É um requisito para
-                                    exercer o direito de voto durante as eleições, contribuindo assim para a construção e manutenção
-                                    de uma sociedade justa e equitativa.
+                                <li><strong>Defesa Nacional:</strong> O Documento Militar é um componente essencial das forças de defesa nacionais. Ele identifica e registra os cidadãos que estão disponíveis para o serviço militar, contribuindo para a prontidão e eficácia das forças armadas.</li>
+                                <li><strong>Compromisso Cívico:</strong> O passaporte é uma representação tangível da cidadania
+                                    angolana em solo estrangeiro. Ele identifica o portador como um legítimo representante da nação perante
+                                    as autoridades de outros países.
                                 </li>
-                                <li><strong>Acesso a Serviços Públicos:</strong> Muitos serviços governamentais e
-                                    públicos
-                                    exigem documentos
-                                    específicos para serem acessados. Ter os documentos corretos em ordem simplifica
-                                    processos
-                                    administrativos e evita complicações desnecessárias.</li>
-                                <li><strong>Registro Civil e Histórico Pessoal:</strong> O Bilhete de Identidade é uma peça-chave
-                                    no registro civil, atestando o nascimento e a trajetória legal do cidadão. Ele não apenas valida
-                                    a identidade, mas também é parte integrante do legado histórico pessoal.</li>
+                                <li><strong>Acesso a Serviços Consulares:</strong> O Recenseamento Militar é um ato de compromisso cívico, demonstrando a disposição do cidadão em servir e proteger a pátria. Reflete um sentido de responsabilidade para com a comunidade e o país como um todo.</li>
+                                <li><strong>Manutenção da Ordem:</strong> O Documento Militar desempenha um papel na manutenção da ordem e segurança interna. Em situações de emergência ou necessidade, as autoridades podem contar com os reservistas para auxiliar em operações de defesa civil.</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#obterModal">Como Obter o Bilhete de Identidade Angolano?</a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#obterModal">Como Obter o Documento Militar (Recenseamento Militar)?</a>
             </div>
             <div class="modal fade" id="obterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header bg-primary">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Passos Para Obter o Bilhete de Identidade Angolano
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Passos Para Obter o Documento Militar
                             </h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <ol>
-                                <li><strong>Requisitos Básicos:</strong> Geralmente, para obter o Bilhete de Identidade, é necessário apresentar certidão
-                                    de nascimento, comprovante de residência e outros documentos que variam conforme a jurisdição.</li>
-                                <li><strong>Dirigir-se à Repartição de Identificação Civil: </strong> O próximo passo envolve
-                                    dirigir-se à Repartição de Identificação Civil, onde o processo de emissão é conduzido. É importante estar ciente dos
-                                    requisitos específicos da região.
-                                </li>
-                                <li><strong>Preencher Formulários e Fotografias: </strong> Ao chegar à repartição, os candidatos preenchem formulários,
-                                    fornecem fotografias recentes e pagam as taxas associadas ao processo.</li>
-                                <li><strong>Agendar e Aguardar Processamento:</strong> Em alguns casos, é necessário
-                                    agendar uma entrevista. Após o processamento, o Bilhete de Identidade é emitido e entregue
-                                    ao solicitante.</li>
+                                <li><strong>Registo Obrigatório:</strong> O Recenseamento Militar é muitas vezes obrigatório para cidadãos em determinada faixa etária, geralmente homens. O registo normalmente é feito em datas específicas estabelecidas pelas autoridades.</li>
+                                <li><strong>Submissão de Documentos:</strong> Durante o processo de recenseamento, os cidadãos são geralmente obrigados a apresentar documentos como o Bilhete de Identidade, comprovante de residência e outros documentos necessários.</li>
+                                <li><strong>Exames Médicos:</strong> Em alguns casos, podem ser realizados exames médicos para avaliar a aptidão física dos recrutas. Isso garante que os indivíduos estejam em condições de cumprir as exigências do serviço militar.</li>
+                                <li><strong>Formação Militar:</strong> Após o registo, os cidadãos podem passar por períodos de formação militar básica, preparando-os para possíveis obrigações futuras.</li>
+                                <li><strong>Emissão do Documento Militar:</strong> Concluído o processo, o Documento Militar é emitido, identificando o indivíduo como registrado para potencial serviço militar. Este documento é muitas vezes necessário em várias situações, incluindo emprego e acesso a alguns serviços governamentais.</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vantagemModal">Vantagens de Possuir um Bilhete de Identidade Angolano</a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vantagemModal">Vantagens de Possuir um Documento Militar</a>
             </div>
             <div class="modal fade" id="vantagemModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -131,26 +109,18 @@
                         </div>
                         <div class="modal-body">
                             <ol>
-                                <li><strong>Facilita a Vida Diária:</strong> Ter o Bilhete de Identidade simplifica várias
-                                    atividades diárias, desde transações bancárias até o acesso a serviços públicos e privados.</li>
-                                <li><strong>Protege Contra Fraudes:</strong> Ao garantir a autenticidade da identidade, o Bilhete
-                                    de Identidade ajuda na prevenção de atividades ilegais, como fraude de identidade, proporcionando
-                                    uma base sólida para o sistema legal.
+                                <li><strong>Participação no Serviço Militar:</strong> O Documento Militar é uma condição para participar no serviço militar, se necessário. Isso permite que o país mantenha uma força de defesa robusta e pronta.</li>
+                                <li><strong>Reconhecimento Cívico:</strong> O cidadão que possui o Documento Militar é reconhecido como alguém que está disposto a cumprir o dever cívico de proteger a nação em tempos de necessidade.
                                 </li>
-                                <li><strong>Constitui Dever Cívico: </strong> Além de uma obrigação legal, possuir um Bilhete de
-                                    Identidade é um dever cívico, contribuindo para a construção de uma sociedade organizada e consciente.</li>
-                                <li><strong>Promove a Participação Cidadã: </strong>Ao fornecer acesso a direitos fundamentais, o Bilhete de
-                                    Identidade promove a participação cidadã, capacitando os indivíduos a contribuir ativamente para o desenvolvimento da nação.</li>
+                                <li><strong>Acesso a Oportunidades:</strong> Em alguns países, possuir o Documento Militar pode ser uma vantagem ao procurar emprego em setores governamentais ou empresas que valorizam o serviço militar.</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="mt-5"></div>
-            <h2>Motivação:</h2>
-            <p>O Bilhete de Identidade é mais do que um documento; é a narrativa visual da cidadania, um testemunho de pertencimento a uma nação que se orgulha de sua
-                diversidade e história. Sua obtenção e preservação não são apenas obrigações legais, mas um compromisso pessoal e coletivo com a construção de um futuro
-                sustentável e inclusivo para Angola.</p>
+            <h2>Em Resumo</h2>
+            <p>O Documento Militar é um testemunho do compromisso cívico e do dever para com a nação. Além de identificar indivíduos registrados para o serviço militar, este documento reflete a prontidão da população em contribuir para a defesa e segurança nacional. Possuir o Documento Militar não é apenas uma formalidade, mas um ato significativo que ressalta o papel vital dos cidadãos na preservação da soberania e estabilidade do país. É um símbolo de orgulho, dever e serviço à comunidade e à nação.</p>
         </div>
     </div>
 </body>

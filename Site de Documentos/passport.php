@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bilhete De Identidade</title>
+    <title>Passaporte</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -42,84 +42,73 @@
         </div>
     </nav>
     <div class="page-content container-fluid">
-        <h1 class="text-center">BILHETE DE IDENTIDADE (BI)</h1>
+        <h1 class="text-center">O Passaporte Angolano: Uma Jornada de Descoberta e Conexão Global</h1>
         <div class="container mt-5">
-            <img src="bi.png" alt="BI" style="width: 100%;">
+            <img src="passaporte.jpg" alt="Passport" style="width: 100%;">
         </div>
         <div class="container mt-5">
-            <p>O Bilhete de Identidade, elemento vital na experiência cidadã angolana,
-                transcende sua existência como um mero documento. Ele é a expressão
-                tangível da identidade de um indivíduo, uma peça que une passado,
-                presente e futuro em um testemunho visual da existência e cidadania.
-                Mais do que um simples cartão, o Bilhete de Identidade angolano é um
-                elo comum que une a rica diversidade do povo angolano.</p>
+            <p>O passaporte é mais do que um documento de viagem; é a chave que desbloqueia um mundo de
+                oportunidades e conecta os cidadãos angolanos à vasta tapeçaria da experiência global.
+                Além de ser uma necessidade para viagens internacionais, o passaporte é um símbolo de
+                liberdade, aventura e participação ativa no cenário internacional.</p>
             <div class="text-center mt-5">
-                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#importanceModal">Importância do Bilhete de Identidade Angolano</a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#importanceModal">Importância do Passaporte Angolano</a>
             </div>
             <div class="modal fade" id="importanceModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header bg-primary">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Importância do BI
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Importância do Passaporte
                             </h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <ol>
-                                <li><strong>Identificação e Reconhecimento:</strong> O Bilhete de Identidade é o certificado
-                                    oficial que atesta quem somos. Ele é fundamental para a identificação e reconhecimento legal
-                                    de um cidadão angolano em diversos contextos, como educação, saúde, emprego e outros aspectos
-                                    da vida cotidiana.</li>
-                                <li><strong>Participação Cívica:</strong> Além de ser uma ferramenta de identificação, o Bilhete
-                                    de Identidade é essencial para a participação ativa no processo democrático. É um requisito para
-                                    exercer o direito de voto durante as eleições, contribuindo assim para a construção e manutenção
-                                    de uma sociedade justa e equitativa.
+                                <li><strong>Facilitação de Viagens Internacionais:</strong> O passaporte angolano é a porta de entrada
+                                    para o mundo. Ele é essencial para cruzar fronteiras e explorar novos destinos, seja para fins
+                                    turísticos, educacionais, de negócios ou outros.</li>
+                                <li><strong>Representação Nacional:</strong> O passaporte é uma representação tangível da cidadania
+                                    angolana em solo estrangeiro. Ele identifica o portador como um legítimo representante da nação perante
+                                    as autoridades de outros países.
                                 </li>
-                                <li><strong>Acesso a Serviços Públicos:</strong> Muitos serviços governamentais e
-                                    públicos
-                                    exigem documentos
-                                    específicos para serem acessados. Ter os documentos corretos em ordem simplifica
-                                    processos
-                                    administrativos e evita complicações desnecessárias.</li>
-                                <li><strong>Registro Civil e Histórico Pessoal:</strong> O Bilhete de Identidade é uma peça-chave
-                                    no registro civil, atestando o nascimento e a trajetória legal do cidadão. Ele não apenas valida
-                                    a identidade, mas também é parte integrante do legado histórico pessoal.</li>
+                                <li><strong>Acesso a Serviços Consulares:</strong> Em caso de emergências ou necessidades durante a
+                                    estadia no exterior, o passaporte é um documento crucial para acessar serviços consulares, garantindo
+                                    proteção e assistência adequadas.</li>
+                                <li><strong>Participação em Eventos Internacionais:</strong> O passaporte possibilita a participação
+                                    em eventos internacionais, conferências, intercâmbios culturais e esportivos, permitindo que os cidadãos
+                                    angolanos se envolvam ativamente no cenário global.</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#obterModal">Como Obter o Bilhete de Identidade Angolano?</a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#obterModal">Como Obter o Passaporte Angolano?</a>
             </div>
             <div class="modal fade" id="obterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header bg-primary">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Passos Para Obter o Bilhete de Identidade Angolano
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Passos Para Obter o Passaporte Angolano
                             </h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <ol>
-                                <li><strong>Requisitos Básicos:</strong> Geralmente, para obter o Bilhete de Identidade, é necessário apresentar certidão
-                                    de nascimento, comprovante de residência e outros documentos que variam conforme a jurisdição.</li>
-                                <li><strong>Dirigir-se à Repartição de Identificação Civil: </strong> O próximo passo envolve
-                                    dirigir-se à Repartição de Identificação Civil, onde o processo de emissão é conduzido. É importante estar ciente dos
-                                    requisitos específicos da região.
-                                </li>
-                                <li><strong>Preencher Formulários e Fotografias: </strong> Ao chegar à repartição, os candidatos preenchem formulários,
-                                    fornecem fotografias recentes e pagam as taxas associadas ao processo.</li>
-                                <li><strong>Agendar e Aguardar Processamento:</strong> Em alguns casos, é necessário
-                                    agendar uma entrevista. Após o processamento, o Bilhete de Identidade é emitido e entregue
-                                    ao solicitante.</li>
+                                <li><strong>Solicitação nos Serviços de Migração e Estrangeiros (SME):</strong> O processo de obtenção
+                                    do passaporte geralmente começa com a solicitação na Direção de Migração e Estrangeiros. Isso envolve
+                                    a apresentação de documentos, incluindo o Bilhete de Identidade.</li>
+                                <li><strong>Avaliação e Emissão:</strong> Após a solicitação, a DME avalia a elegibilidade e, se
+                                    aprovado, emite o passaporte. É essencial fornecer informações precisas e completas durante o processo.</li>
+                                <li><strong>Renovação e Atualização:</strong> Os passaportes têm uma validade limitada, e a renovação pode
+                                    ser necessária. Manter as informações atualizadas é crucial para garantir a eficácia contínua do passaporte.</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vantagemModal">Vantagens de Possuir um Bilhete de Identidade Angolano</a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vantagemModal">Vantagens de Possuir um Passaporte Angolano</a>
             </div>
             <div class="modal fade" id="vantagemModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -131,26 +120,26 @@
                         </div>
                         <div class="modal-body">
                             <ol>
-                                <li><strong>Facilita a Vida Diária:</strong> Ter o Bilhete de Identidade simplifica várias
-                                    atividades diárias, desde transações bancárias até o acesso a serviços públicos e privados.</li>
-                                <li><strong>Protege Contra Fraudes:</strong> Ao garantir a autenticidade da identidade, o Bilhete
-                                    de Identidade ajuda na prevenção de atividades ilegais, como fraude de identidade, proporcionando
-                                    uma base sólida para o sistema legal.
+                                <li><strong>Exploração Cultural e Educacional: </strong> O passaporte permite que os cidadãos angolanos
+                                    explorem diferentes culturas, vivenciem novas experiências educacionais e expandam seus horizontes pessoais.</li>
+                                <li><strong>Oportunidades Profissionais: </strong> Para profissionais que buscam oportunidades de
+                                    trabalho ou negócios no exterior, o passaporte é uma ferramenta essencial para abrir portas e
+                                    estabelecer conexões internacionais.
                                 </li>
-                                <li><strong>Constitui Dever Cívico: </strong> Além de uma obrigação legal, possuir um Bilhete de
-                                    Identidade é um dever cívico, contribuindo para a construção de uma sociedade organizada e consciente.</li>
-                                <li><strong>Promove a Participação Cidadã: </strong>Ao fornecer acesso a direitos fundamentais, o Bilhete de
-                                    Identidade promove a participação cidadã, capacitando os indivíduos a contribuir ativamente para o desenvolvimento da nação.</li>
+                                <li><strong>Conexões Pessoais e Familiares:</strong> Facilita a reunião com familiares e entes
+                                    queridos que podem residir em outros países, promovendo conexões pessoais e mantendo laços familiares.</li>
+                                <li><strong>Participação em Programas de Intercâmbio:</strong> O passaporte é muitas vezes um requisito para
+                                    participação em programas de intercâmbio estudantil, enriquecendo a educação e promovendo a compreensão global.</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="mt-5"></div>
-            <h2>Motivação:</h2>
-            <p>O Bilhete de Identidade é mais do que um documento; é a narrativa visual da cidadania, um testemunho de pertencimento a uma nação que se orgulha de sua
-                diversidade e história. Sua obtenção e preservação não são apenas obrigações legais, mas um compromisso pessoal e coletivo com a construção de um futuro
-                sustentável e inclusivo para Angola.</p>
+            <h2>Em Resumo</h2>
+            <p>O passaporte angolano é mais do que um documento de viagem; é um símbolo da liberdade de explorar, aprender e conectar-se globalmente. Cada página do
+                passaporte conta uma história única, cheia de descobertas e experiências. Possuir um passaporte não apenas abre portas para o mundo, mas também
+                fortalece o senso de identidade e cidadania, lembrando a cada angolano que eles fazem parte de uma comunidade global diversificada e interconectada.</p>
         </div>
     </div>
 </body>

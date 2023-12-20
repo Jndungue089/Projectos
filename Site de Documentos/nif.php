@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bilhete De Identidade</title>
+    <title>Número de Identificação Fiscal | NIF</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -42,84 +42,78 @@
         </div>
     </nav>
     <div class="page-content container-fluid">
-        <h1 class="text-center">BILHETE DE IDENTIDADE (BI)</h1>
+        <h1 class="text-center">Número de Identificação Fiscal (NIF): A Chave para a Participação na Vida Contributiva</h1>
         <div class="container mt-5">
-            <img src="bi.png" alt="BI" style="width: 100%;">
+            <img src="nif.jpg" alt="Passport" style="width: 100%;">
         </div>
         <div class="container mt-5">
-            <p>O Bilhete de Identidade, elemento vital na experiência cidadã angolana,
-                transcende sua existência como um mero documento. Ele é a expressão
-                tangível da identidade de um indivíduo, uma peça que une passado,
-                presente e futuro em um testemunho visual da existência e cidadania.
-                Mais do que um simples cartão, o Bilhete de Identidade angolano é um
-                elo comum que une a rica diversidade do povo angolano.</p>
+            <p>O Número de Identificação Fiscal (NIF) é mais do que uma sequência de dígitos; é a chave que abre as portas para a participação ativa na vida contributiva de um país. Vamos explorar o significado, a importância, as vantagens e o processo de obtenção do NIF.</p>
             <div class="text-center mt-5">
-                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#importanceModal">Importância do Bilhete de Identidade Angolano</a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#meanModal">Significado do NIF:</a>
+            </div>
+            <div class="modal fade" id="meanModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-primary">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Significado
+                            </h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ol>
+                                <li><strong>Identificação Única:</strong> O NIF é uma identificação única atribuída a cada contribuinte. Ele serve como uma etiqueta exclusiva que distingue cada cidadão ou entidade contribuinte, facilitando a gestão eficiente dos assuntos fiscais.</li>
+                                <li><strong>Elemento-Chave na Tributação:</strong> O NIF é fundamental para a tributação. Ele vincula todas as atividades financeiras de um indivíduo ou empresa, garantindo que contribuições fiscais adequadas sejam aplicadas.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#importanceModal">Importância do NIF</a>
             </div>
             <div class="modal fade" id="importanceModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header bg-primary">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Importância do BI
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Importância do NIF
                             </h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <ol>
-                                <li><strong>Identificação e Reconhecimento:</strong> O Bilhete de Identidade é o certificado
-                                    oficial que atesta quem somos. Ele é fundamental para a identificação e reconhecimento legal
-                                    de um cidadão angolano em diversos contextos, como educação, saúde, emprego e outros aspectos
-                                    da vida cotidiana.</li>
-                                <li><strong>Participação Cívica:</strong> Além de ser uma ferramenta de identificação, o Bilhete
-                                    de Identidade é essencial para a participação ativa no processo democrático. É um requisito para
-                                    exercer o direito de voto durante as eleições, contribuindo assim para a construção e manutenção
-                                    de uma sociedade justa e equitativa.
+                                <li><strong>Participação no Sistema Fiscal:</strong> O NIF é uma condição para participar plenamente no sistema fiscal. É necessário para realizar transações financeiras, emprego formal, abertura de contas bancárias e outras atividades financeiras.</li>
+                                <li><strong>Rastreabilidade Financeira:</strong> OAtribuir um NIF a cada contribuinte permite a rastreabilidade eficaz das atividades financeiras. Isso é crucial para a prevenção da evasão fiscal e para garantir que todos contribuam equitativamente para os recursos públicos.
                                 </li>
-                                <li><strong>Acesso a Serviços Públicos:</strong> Muitos serviços governamentais e
-                                    públicos
-                                    exigem documentos
-                                    específicos para serem acessados. Ter os documentos corretos em ordem simplifica
-                                    processos
-                                    administrativos e evita complicações desnecessárias.</li>
-                                <li><strong>Registro Civil e Histórico Pessoal:</strong> O Bilhete de Identidade é uma peça-chave
-                                    no registro civil, atestando o nascimento e a trajetória legal do cidadão. Ele não apenas valida
-                                    a identidade, mas também é parte integrante do legado histórico pessoal.</li>
+                                <li><strong>Acesso a Benefícios Fiscais:</strong> Em alguns casos, a posse de um NIF pode proporcionar acesso a benefícios fiscais ou deduções. Pode ser usado para identificar elegibilidade para certos regimes fiscais ou programas de incentivo governamental.</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#obterModal">Como Obter o Bilhete de Identidade Angolano?</a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#obterModal">Como Obter o NIF?</a>
             </div>
             <div class="modal fade" id="obterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header bg-primary">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Passos Para Obter o Bilhete de Identidade Angolano
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Passos Para Obter o NIF
                             </h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <ol>
-                                <li><strong>Requisitos Básicos:</strong> Geralmente, para obter o Bilhete de Identidade, é necessário apresentar certidão
-                                    de nascimento, comprovante de residência e outros documentos que variam conforme a jurisdição.</li>
-                                <li><strong>Dirigir-se à Repartição de Identificação Civil: </strong> O próximo passo envolve
-                                    dirigir-se à Repartição de Identificação Civil, onde o processo de emissão é conduzido. É importante estar ciente dos
-                                    requisitos específicos da região.
-                                </li>
-                                <li><strong>Preencher Formulários e Fotografias: </strong> Ao chegar à repartição, os candidatos preenchem formulários,
-                                    fornecem fotografias recentes e pagam as taxas associadas ao processo.</li>
-                                <li><strong>Agendar e Aguardar Processamento:</strong> Em alguns casos, é necessário
-                                    agendar uma entrevista. Após o processamento, o Bilhete de Identidade é emitido e entregue
-                                    ao solicitante.</li>
+                                <li><strong>Registo nas Autoridades Fiscais:</strong> O processo de obtenção do NIF geralmente envolve o registo junto das autoridades fiscais do país. Pode ser necessário preencher formulários específicos e fornecer documentação de identificação, como o Bilhete de Identidade.</li>
+                                <li><strong>Verificação e Atribuição:</strong> Após o registo, as autoridades fiscais verificam a informação fornecida e atribuem um NIF único ao contribuinte. Este número torna-se a referência principal para todas as interações fiscais.</li>
+                                <li><strong>Atualizações Obrigatórias:</strong> É responsabilidade do contribuinte manter as informações associadas ao NIF atualizadas. Mudanças de endereço, estado civil ou outras alterações relevantes devem ser comunicadas às autoridades fiscais.</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vantagemModal">Vantagens de Possuir um Bilhete de Identidade Angolano</a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vantagemModal">Vantagens de Possuir um NIF</a>
             </div>
             <div class="modal fade" id="vantagemModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -131,26 +125,18 @@
                         </div>
                         <div class="modal-body">
                             <ol>
-                                <li><strong>Facilita a Vida Diária:</strong> Ter o Bilhete de Identidade simplifica várias
-                                    atividades diárias, desde transações bancárias até o acesso a serviços públicos e privados.</li>
-                                <li><strong>Protege Contra Fraudes:</strong> Ao garantir a autenticidade da identidade, o Bilhete
-                                    de Identidade ajuda na prevenção de atividades ilegais, como fraude de identidade, proporcionando
-                                    uma base sólida para o sistema legal.
+                                <li><strong>Legalidade e Conformidade:</strong> Possuir um NIF é essencial para operar legalmente e em conformidade com as leis fiscais. Isso evita penalidades e complicações legais associadas à evasão fiscal.</li>
+                                <li><strong>Participação no Mercado de Trabalho:</strong> Muitos empregadores exigem um NIF como parte do processo de contratação. Ter um NIF facilita a participação no mercado de trabalho formal.
                                 </li>
-                                <li><strong>Constitui Dever Cívico: </strong> Além de uma obrigação legal, possuir um Bilhete de
-                                    Identidade é um dever cívico, contribuindo para a construção de uma sociedade organizada e consciente.</li>
-                                <li><strong>Promove a Participação Cidadã: </strong>Ao fornecer acesso a direitos fundamentais, o Bilhete de
-                                    Identidade promove a participação cidadã, capacitando os indivíduos a contribuir ativamente para o desenvolvimento da nação.</li>
+                                <li><strong>Facilita Transações Financeiras:</strong> O NIF é necessário para abrir contas bancárias, realizar transações imobiliárias e comerciais, entre outras atividades financeiras.</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="mt-5"></div>
-            <h2>Motivação:</h2>
-            <p>O Bilhete de Identidade é mais do que um documento; é a narrativa visual da cidadania, um testemunho de pertencimento a uma nação que se orgulha de sua
-                diversidade e história. Sua obtenção e preservação não são apenas obrigações legais, mas um compromisso pessoal e coletivo com a construção de um futuro
-                sustentável e inclusivo para Angola.</p>
+            <h2>Em Resumo</h2>
+            <p>O Número de Identificação Fiscal (NIF) é a pedra angular da participação na vida contributiva de uma sociedade. Além de ser uma exigência legal, o NIF oferece uma maneira eficaz de rastrear e gerenciar as atividades financeiras dos contribuintes. Possuir um NIF não é apenas uma formalidade; é um passo fundamental para contribuir de forma justa e equitativa para o bem-estar da comunidade e para garantir a transparência e eficiência nos assuntos fiscais. É a chave que desbloqueia as portas para uma participação plena no sistema fiscal e no desenvolvimento econômico do país.</p>
         </div>
     </div>
 </body>
