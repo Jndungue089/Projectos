@@ -52,7 +52,7 @@
                     </svg>
                 </div>
                 <form action="{{route('login')}}" method="POST" style="background-color: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-                    @csfr
+                    @csrf
                     <div class="text-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-door-closed" viewBox="0 0 16 16">
                             <path d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3zm1 13h8V2H4z" />
@@ -62,24 +62,24 @@
                     </div>
                     <hr>
                     <div class="form-floating mb-3 mt-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" id="email" name="email" :value="old('email')" required autofocus autocomplete="username">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" id="email" name="email" :value="old('email')">
                         <label for="floatingInput" value="{{ __('Email') }}">Email</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required autocomplete="current-password" name="password" id="password">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password" id="password">
                         <label for="floatingPassword" value="{{ __('Password') }}">Palavra-Passe</label>
                     </div>
                     <div class="row">
                         <button type="submit" class="btn btn-primary">{{ __('Login') }}</button>
                         <a href="#" class="mt-3" style="text-decoration: none;">Esqueci-me da Palavra-Passe</a>
-                        <div class="col">
-                            <p class="mt-3">Ainda não possui uma conta?</p>
-                            <form action="{{route('create')}}" method="POST">
-                                <button type="submit" class="btn btn-primary">Criar conta</button>
-                            </form>
-                        </div>
                     </div>
                 </form>
+                <div class="col">
+                    <p class="mt-3">Ainda não possui uma conta?</p>
+                    <form action="{{route('register')}}" method="POST">
+                        <button type="submit" class="btn btn-primary">Criar conta</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

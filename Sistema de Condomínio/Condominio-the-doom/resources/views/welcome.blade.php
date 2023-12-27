@@ -135,7 +135,9 @@
                 <ul class="navbar-nav bg-primary me-auto mb-2 mb-lg-0">
                     <li class=" nav-item active"><a class="p-3 nav-link" href="index.php<?php echo isset($_GET['light-theme']) ? '?light-theme"' : ''; ?>">Home</a></li>
                 </ul>
-                <form action="{{route('login')}}<?php echo isset($_GET['light-theme']) ? '?light-theme"' : ''; ?>">
+                <form action="{{ route('login') }}" method="POST">
+                    @csrf
+                    @method('GET')
                     <button class="nav-item btn btn-primary" type="submit">Login</button>
                 </form>
                 <script src="script.js"></script>
